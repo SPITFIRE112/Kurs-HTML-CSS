@@ -1,3 +1,14 @@
+html{
+    height: 100%;
+}
+
+#header{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 25%;
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,7 +16,15 @@ ul {
   }
 body{
     background-color: dimgray;
-    color: rgb(255, 217, 0)
+    color: rgb(255, 217, 0);
+    height: 65%;
+    margin: 0;
+}
+
+#container {
+ position: relative;
+ width: 100%;
+ height: 90%;
 }
 
 #menu{
@@ -22,7 +41,13 @@ h1, h2, h3,h4, h5, h6 {
  text-align: center
 }
 
+
+
 footer{
-    text-align: center
+    text-align: center;
+    width: 100%;
+    clear: both;
+    margin-bottom: 0;
+
 }
 
