@@ -3,8 +3,9 @@ html{
 }
 
 #header{
-    background-color: rgba(255, 255, 255, 0.5);
-    height: 25%;
+    background: rgb(255,59,0);
+    background: linear-gradient(-90deg, rgba(255,59,0,1) 0%, rgba(255,170,0,1) 100%);
+    padding: 2% 0;
 }
 
 
@@ -15,8 +16,8 @@ ul {
     padding: 0;
   }
 body{
-    background-color: dimgray;
-    color: rgb(255, 217, 0);
+    background: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     height: 65%;
     margin: 0;
 }
@@ -32,13 +33,28 @@ body{
     width: 20%;
 }
 
+li{
+    text-align: center;
+    padding: 0.75em 0;
+    height: 50px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    height: 100%
+  
+}
+
+
 #content{
     float: right;
     width: 80%;
 }
 
 h1, h2, h3,h4, h5, h6 {
- text-align: center
+ text-align: center;
 }
 
 
